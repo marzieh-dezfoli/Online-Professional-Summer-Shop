@@ -1,0 +1,2405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  
+
+      <!--=============== FLATICON ===============-->
+      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'/>
+    <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="styles.css"/> 
+   
+    <title>Online shop</title>
+  </head>
+  </html>
+<!--=============== HEADER ===============-->
+<header class="header">
+<div class="header__top">
+<div class="header__container container">
+<div class="header__contact">
+<span>(+01) - 2345 -6789</span>
+<span>Our location</span>
+</div>
+
+<p class="header__alert-news">
+super value deals - save more with coupons
+</p>
+<a href="login-register.html" class="header__top-action">
+Log In / Sign Up
+</a>
+</div>
+</div>
+
+<nav class="nav container">
+<a href="index.html" class="nav__logo">
+<img src="./assets/img/logo.webp" alt="" class="nav__logo-img"/>
+</a>
+<div class="nav__menu" id="nav__menu">
+<ul class="nav__list">
+
+<li class="nav__item">
+  <a href="index.html" class="nav__link active-link">Home</a>
+ 
+</li>
+
+<li class="nav__item">
+  <a href="shop.html" class="nav__link">Shop</a>
+ 
+</li>
+
+<li class="nav__item">
+  <a href="accounts.html" class="nav__link">My Account</a>
+ 
+</li>
+
+<li class="nav__item">
+  <a href="compare.html" class="nav__link">Compare</a>
+ 
+</li>
+
+<li class="nav__item">
+  <a href="login-register.html" class="nav__link">Login</a>
+ 
+</li>
+
+</ul>
+
+<div class="header__search">
+<input type="text" placeholder="search for items" class="form__input">
+</div>
+
+<button class="search__btn">
+
+<img  src="./assets/img/search.png" alt=""/>
+
+</button>
+
+
+
+</div>
+
+<div class="header__user-actions">
+<a href="wishlist.html" class="header__action-btn">
+
+  <img class="herat-1" src="assets/img/icon-heart.svg" alt="">
+  <span class="count">3</span>
+</a>
+
+<a href="cart.html" class="header__action-btn">
+
+  <img class="herat-1" src="assets/img/icon-cart.svg" alt="">
+  <span class="count">3</span>
+</a>
+
+
+
+</div>
+
+</nav>
+
+</header>
+    <!--=============== HOME ===============-->
+    <section class="home section__lag">
+<div class="home__container container grid">
+<div class="home__content">
+<span class="home__subtitle">Hot promotions</span>
+<h1 class="home__title">Fashion trending<br> <span>Great Collection</span></h1>
+<p class="home__description">save more with coupons & up to 20% off</p>
+<a href="shop.html" class="btn">Shop Now</a>
+</div>
+<img src="./assets/img/home-img.png" alt="" class="home__img">
+</div>
+
+
+    </section>
+
+
+      <!--=============== CATEGORIES ===============-->
+<div class="categories container section">
+<h3 class="section__title"><span>Popular</span> items for purchase.</h3>
+
+<div class="categories__container swiper">
+<div class="swiper-wrapper">
+
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-1.jpg" alt="" class="category__img">
+  <h3 class="category__title">T-Shirt</h3>
+</a>
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-2.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">Bags</h3>
+</a>
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-3.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">Sandal</h3>
+</a>
+
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-4.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">Scraf Cap</h3>
+</a>
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-5.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">Shoes</h3>
+</a>
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-6.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">pillowcase</h3>
+</a>
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-7.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">jumpsuit</h3>
+</a>
+
+<a href="shop.html" class="category__item swiper-slide">
+
+  <img src="assets/img/category-8.jpg" alt=""
+   class="category__img">
+  <h3 class="category__title">Hats</h3>
+</a>
+</div>
+
+<div class="swiper-button-next">
+  <i class="fi fi-ss-angle-right"></i>
+</div>
+<div class="swiper-button-prev">
+  <i class="fi fi-ss-angle-left"></i>
+</div>
+
+</div>
+</section>
+
+
+     <!--=============== PRODUCTS ===============-->
+<section class="products section container">
+  <div class="tab__btns">
+    <span class="tab__btn active-tab" data-target="#featured">Featured</span>
+    <span class="tab__btn" data-target="#popular">Popular</span>
+    <span class="tab__btn" data-target="#new-added">New added</span>
+  </div>
+
+<div class="tab__items">
+<div class="tab__item active-tab" content id="featured">
+<div class="products__container grid">
+
+  <div class="product__item">
+    <div class="product__banner">
+<a href="detalis.html" class="product__images">
+  <img src="assets/img/product-1-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-1-2.jpg" alt=""  class="product__img hover">
+</a>
+ <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+ </div>
+
+<div class="product__badge light-pink">Hot</div>
+
+
+
+</div>
+
+<div class="product__content">
+ <span class="product __category">Clothing</span>
+ <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+ </a>
+
+<div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+  <div class="product__item">
+    <div class="product__banner">
+<a href="detalis.html" class="product__images">
+  <img src="assets/img/product-2-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-2-2.jpg" alt=""  class="product__img hover">
+</a>
+ <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+ </div>
+
+<div class="product__badge light-green">Hot</div>
+
+
+
+</div>
+
+<div class="product__content">
+ <span class="product __category">Clothing</span>
+ <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+ </a>
+
+<div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+
+<div class="product__item">
+  <div class="product__banner">
+<a href="detalis.html" class="product__images">
+<img src="assets/img/product-3-1.jpg" alt=""  class="product__img default">
+<img src="assets/img/product-3-2.jpg" alt=""  class="product__img hover">
+</a>
+<div class="product__actions">
+<a href="" class="action__btn" aria-label="Quick View">
+  <i class="fi fi-ss-eye"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="Add To wishlist">
+  <i class="fi fi-ss-heart"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="compare">
+  <i class="fi fi-ss-shuffle"></i>
+</a>
+</div>
+
+<div class="product__badge light-orange">Hot</div>
+
+
+
+</div>
+
+<div class="product__content">
+<span class="product __category">Clothing</span>
+<a href="detalis.html">
+<h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+</a>
+
+<div class="product__rating">
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+<span class="new__price">$238.85</span>
+<span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+<i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+<div class="product__item">
+  <div class="product__banner">
+<a href="detalis.html" class="product__images">
+<img src="assets/img/product-4-1.jpg" alt=""  class="product__img default">
+<img src="assets/img/product-4-2.jpg" alt=""  class="product__img hover">
+</a>
+<div class="product__actions">
+<a href="" class="action__btn" aria-label="Quick View">
+  <i class="fi fi-ss-eye"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="Add To wishlist">
+  <i class="fi fi-ss-heart"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="compare">
+  <i class="fi fi-ss-shuffle"></i>
+</a>
+</div>
+
+<div class="product__badge light-blue">Hot</div>
+
+
+
+</div>
+
+<div class="product__content">
+<span class="product __category">Clothing</span>
+<a href="detalis.html">
+<h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+</a>
+
+<div class="product__rating">
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+<span class="new__price">$238.85</span>
+<span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+<i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+
+<div class="product__item">
+  <div class="product__banner">
+<a href="detalis.html" class="product__images">
+<img src="assets/img/product-5-1.jpg" alt=""  class="product__img default">
+<img src="assets/img/product-5-2.jpg" alt=""  class="product__img hover">
+</a>
+<div class="product__actions">
+<a href="" class="action__btn" aria-label="Quick View">
+  <i class="fi fi-ss-eye"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="Add To wishlist">
+  <i class="fi fi-ss-heart"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="compare">
+  <i class="fi fi-ss-shuffle"></i>
+</a>
+</div>
+
+<div class="product__badge light-pink">30%</div>
+
+
+
+</div>
+
+<div class="product__content">
+<span class="product __category">Clothing</span>
+<a href="detalis.html">
+<h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+</a>
+
+<div class="product__rating">
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+<span class="new__price">$238.85</span>
+<span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+<i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+<div class="product__item">
+  <div class="product__banner">
+<a href="detalis.html" class="product__images">
+<img src="assets/img/product-6-1.jpg" alt=""  class="product__img default">
+<img src="assets/img/product-6-2.jpg" alt=""  class="product__img hover">
+</a>
+<div class="product__actions">
+<a href="" class="action__btn" aria-label="Quick View">
+  <i class="fi fi-ss-eye"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="Add To wishlist">
+  <i class="fi fi-ss-heart"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="compare">
+  <i class="fi fi-ss-shuffle"></i>
+</a>
+</div>
+
+<div class="product__badge light-pink">30%</div>
+
+
+
+</div>
+
+<div class="product__content">
+<span class="product __category">Clothing</span>
+<a href="detalis.html">
+<h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+</a>
+
+<div class="product__rating">
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+<span class="new__price">$238.85</span>
+<span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+<i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+<div class="product__item">
+  <div class="product__banner">
+<a href="detalis.html" class="product__images">
+<img src="assets/img/product-7-1.jpg" alt=""  class="product__img default">
+<img src="assets/img/product-7-2.jpg" alt=""  class="product__img hover">
+</a>
+<div class="product__actions">
+<a href="" class="action__btn" aria-label="Quick View">
+  <i class="fi fi-ss-eye"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="Add To wishlist">
+  <i class="fi fi-ss-heart"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="compare">
+  <i class="fi fi-ss-shuffle"></i>
+</a>
+</div>
+
+<div class="product__badge light-green">30%</div>
+
+
+
+</div>
+
+<div class="product__content">
+<span class="product __category">Clothing</span>
+<a href="detalis.html">
+<h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+</a>
+
+<div class="product__rating">
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+<span class="new__price">$238.85</span>
+<span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+<i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+<div class="product__item">
+  <div class="product__banner">
+<a href="detalis.html" class="product__images">
+<img src="assets/img/product-8-1.jpg" alt=""  class="product__img default">
+<img src="assets/img/product-8-2.jpg" alt=""  class="product__img hover">
+</a>
+<div class="product__actions">
+<a href="" class="action__btn" aria-label="Quick View">
+  <i class="fi fi-ss-eye"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="Add To wishlist">
+  <i class="fi fi-ss-heart"></i>
+</a>
+
+<a href="" class="action__btn" aria-label="compare">
+  <i class="fi fi-ss-shuffle"></i>
+</a>
+</div>
+
+
+
+
+</div>
+
+<div class="product__content">
+<span class="product __category">Clothing</span>
+<a href="detalis.html">
+<h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+</a>
+
+<div class="product__rating">
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+<i class="fi fi-ss-star"></i>
+</div>
+
+<div class="product__price flex">
+<span class="new__price">$238.85</span>
+<span class="old__price">$228.85</span>
+</div>
+
+<a href="" class="action__btn cart__btn" aria-label="Add To cart">
+<i class="fi fi-ss-shopping-cart"></i>
+</a>
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+
+<div class="tab__item" content  id="popular">
+  <div class="products__container grid">
+  
+    <div class="product__item">
+      <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-9-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-9-2.jpg" alt=""  class="product__img hover">
+  </a>
+   <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+  
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+  
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+   </div>
+  
+  <div class="product__badge light-pink">Hot</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+   <span class="product __category">Clothing</span>
+   <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+   </a>
+  
+  <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+    <div class="product__item">
+      <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-2-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-2-2.jpg" alt=""  class="product__img hover">
+  </a>
+   <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+  
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+  
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+   </div>
+  
+  <div class="product__badge light-green">Hot</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+   <span class="product __category">Clothing</span>
+   <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+   </a>
+  
+  <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  
+  <div class="product__item">
+    <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+  <img src="assets/img/product-10-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-10-2.jpg" alt=""  class="product__img hover">
+  </a>
+  <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+  </div>
+  
+  <div class="product__badge light-orange">Hot</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+  <span class="product __category">Clothing</span>
+  <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+  </a>
+  
+  <div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  <div class="product__item">
+    <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+  <img src="assets/img/product-4-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-4-2.jpg" alt=""  class="product__img hover">
+  </a>
+  <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+  </div>
+  
+  <div class="product__badge light-blue">Hot</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+  <span class="product __category">Clothing</span>
+  <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+  </a>
+  
+  <div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  
+  <div class="product__item">
+    <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+  <img src="assets/img/product-5-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-5-2.jpg" alt=""  class="product__img hover">
+  </a>
+  <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+  </div>
+  
+  <div class="product__badge light-pink">30%</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+  <span class="product __category">Clothing</span>
+  <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+  </a>
+  
+  <div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  <div class="product__item">
+    <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+  <img src="assets/img/product-11-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-11-2.jpg" alt=""  class="product__img hover">
+  </a>
+  <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+  </div>
+  
+  <div class="product__badge light-pink">30%</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+  <span class="product __category">Clothing</span>
+  <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+  </a>
+  
+  <div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  <div class="product__item">
+    <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+  <img src="assets/img/product-7-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-7-2.jpg" alt=""  class="product__img hover">
+  </a>
+  <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+  </div>
+  
+  <div class="product__badge light-green">30%</div>
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+  <span class="product __category">Clothing</span>
+  <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+  </a>
+  
+  <div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  <div class="product__item">
+    <div class="product__banner">
+  <a href="detalis.html" class="product__images">
+  <img src="assets/img/product-8-1.jpg" alt=""  class="product__img default">
+  <img src="assets/img/product-8-2.jpg" alt=""  class="product__img hover">
+  </a>
+  <div class="product__actions">
+  <a href="" class="action__btn" aria-label="Quick View">
+    <i class="fi fi-ss-eye"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="Add To wishlist">
+    <i class="fi fi-ss-heart"></i>
+  </a>
+  
+  <a href="" class="action__btn" aria-label="compare">
+    <i class="fi fi-ss-shuffle"></i>
+  </a>
+  </div>
+  
+  
+  
+  
+  </div>
+  
+  <div class="product__content">
+  <span class="product __category">Clothing</span>
+  <a href="detalis.html">
+  <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+  </a>
+  
+  <div class="product__rating">
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  <i class="fi fi-ss-star"></i>
+  </div>
+  
+  <div class="product__price flex">
+  <span class="new__price">$238.85</span>
+  <span class="old__price">$228.85</span>
+  </div>
+  
+  <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+  <i class="fi fi-ss-shopping-cart"></i>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  
+  </div>
+  </div>
+
+  <div class="tab__item" content  id="new-added">
+    <div class="products__container grid">
+    
+      <div class="product__item">
+        <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+      <img src="assets/img/product-1-1.jpg" alt=""  class="product__img default">
+      <img src="assets/img/product-1-2.jpg" alt=""  class="product__img hover">
+    </a>
+     <div class="product__actions">
+      <a href="" class="action__btn" aria-label="Quick View">
+        <i class="fi fi-ss-eye"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="Add To wishlist">
+        <i class="fi fi-ss-heart"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="compare">
+        <i class="fi fi-ss-shuffle"></i>
+      </a>
+     </div>
+    
+    <div class="product__badge light-pink">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+     <span class="product__category">Clothing</span>
+     <a href="detalis.html">
+      <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+     </a>
+    
+    <div class="product__rating">
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+      <span class="new__price">$238.85</span>
+      <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+      <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+      <div class="product__item">
+        <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+      <img src="assets/img/product-12-1.jpg" alt=""  class="product__img default">
+      <img src="assets/img/product-12-2.jpg" alt=""  class="product__img hover">
+    </a>
+     <div class="product__actions">
+      <a href="" class="action__btn" aria-label="Quick View">
+        <i class="fi fi-ss-eye"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="Add To wishlist">
+        <i class="fi fi-ss-heart"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="compare">
+        <i class="fi fi-ss-shuffle"></i>
+      </a>
+     </div>
+    
+    <div class="product__badge light-green">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+     <span class="product __category">Clothing</span>
+     <a href="detalis.html">
+      <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+     </a>
+    
+    <div class="product__rating">
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+      <span class="new__price">$238.85</span>
+      <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+      <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    
+    <div class="product__item">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-13-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-13-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-orange">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-4-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-4-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-blue">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    
+    <div class="product__item">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-10-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-10-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-pink">30%</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-6-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-6-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-pink">30%</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-9-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-9-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-green">30%</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-8-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-8-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    
+    </div>
+    </div>
+  
+
+</div>
+</section>
+
+
+      <!--=============== DEALS ===============-->
+      <section class="deals section">
+<div class="deals__container container grid">
+<div class="deals__item">
+  <div class="deals__group">
+    <h3 class="deals__brand">Deal of  the Day</h3>
+
+<spna class="deals__category">limited quantities</spna>
+  </div>
+
+  <h4 class="deals__title">Summer Collection New Morden Design</h4>
+  <div class="deals__price flex">
+    <span class="new__price">$139.00</span>
+    <span class="old__price">$160.00</span>
+  </div>
+
+<div class="deals__group">
+  <p class="deals__countdown-text">Hurry up! Offer End In:</p>
+
+  <div class="countdown">
+    <div class="countdown__amount">
+      <p class="countdown__period">02</p>
+<span class="unit">Days</span>
+    </div>
+
+    <div class="countdown__amount">
+      <p class="countdown__period">57</p>
+<span class="unit">Mins</span>
+    </div>
+
+    <div class="countdown__amount">
+      <p class="countdown__period">24</p>
+<span class="unit">Sec</span>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+<div class="deals__btn">
+  <a href="detalis.html"  class="btn btn__md">Shop now</a>
+</div>
+
+</div>
+
+<div class="deals__item">
+  <div class="deals__group">
+    <h3 class="deals__brand">Woman Clothing</h3>
+
+<spna class="deals__category">limited quantities</spna>
+  </div>
+
+  <h4 class="deals__title">Try somting new on vaction</h4>
+  <div class="deals__price flex">
+    <span class="new__price">$139.00</span>
+    <span class="old__price">$160.00</span>
+  </div>
+
+<div class="deals__group">
+  <p class="deals__countdown-text">Hurry up! Offer End In:</p>
+
+  <div class="countdown">
+    <div class="countdown__amount">
+      <p class="countdown__period">02</p>
+<span class="unit">Days</span>
+    </div>
+
+    <div class="countdown__amount">
+      <p class="countdown__period">57</p>
+<span class="unit">Mins</span>
+    </div>
+
+    <div class="countdown__amount">
+      <p class="countdown__period">24</p>
+<span class="unit">Sec</span>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+<div class="deals__btn">
+  <a href="detalis.html"  class="btn btn__md">Shop now</a>
+</div>
+
+</div>
+
+
+
+</div>
+</section>
+
+     <!--===============   New arrives ===============-->
+     <section class="new__arrivals container section">
+     <h3 class="section__title"><span>News</span>Arrivals</h3>
+
+     <div class="new__container swiper">
+     <div class="swiper-wrapper">
+
+
+      <div class="product__item swiper-slide">
+        <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+      <img src="assets/img/product-1-1.jpg" alt=""  class="product__img default">
+      <img src="assets/img/product-1-2.jpg" alt=""  class="product__img hover">
+    </a>
+     <div class="product__actions">
+      <a href="" class="action__btn" aria-label="Quick View">
+        <i class="fi fi-ss-eye"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="Add To wishlist">
+        <i class="fi fi-ss-heart"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="compare">
+        <i class="fi fi-ss-shuffle"></i>
+      </a>
+     </div>
+    
+    <div class="product__badge light-pink">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+     <span class="product __category">Clothing</span>
+     <a href="detalis.html">
+      <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+     </a>
+    
+    <div class="product__rating">
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+      <span class="new__price">$238.85</span>
+      <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+      <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+      <div class="product__item swiper-slide">
+        <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+      <img src="assets/img/product-2-1.jpg" alt=""  class="product__img default">
+      <img src="assets/img/product-2-2.jpg" alt=""  class="product__img hover">
+    </a>
+     <div class="product__actions">
+      <a href="" class="action__btn" aria-label="Quick View">
+        <i class="fi fi-ss-eye"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="Add To wishlist">
+        <i class="fi fi-ss-heart"></i>
+      </a>
+    
+      <a href="" class="action__btn" aria-label="compare">
+        <i class="fi fi-ss-shuffle"></i>
+      </a>
+     </div>
+    
+    <div class="product__badge light-green">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+     <span class="product __category">Clothing</span>
+     <a href="detalis.html">
+      <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+     </a>
+    
+    <div class="product__rating">
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+      <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+      <span class="new__price">$238.85</span>
+      <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+      <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    
+    <div class="product__item swiper-slide">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-3-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-3-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-orange">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item swiper-slide">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-4-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-4-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-blue">Hot</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    
+    <div class="product__item swiper-slide">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-5-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-5-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-pink">30%</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item swiper-slide">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-6-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-6-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-pink">30%</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+    
+    <div class="product__item swiper-slide">
+      <div class="product__banner">
+    <a href="detalis.html" class="product__images">
+    <img src="assets/img/product-7-1.jpg" alt=""  class="product__img default">
+    <img src="assets/img/product-7-2.jpg" alt=""  class="product__img hover">
+    </a>
+    <div class="product__actions">
+    <a href="" class="action__btn" aria-label="Quick View">
+      <i class="fi fi-ss-eye"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="Add To wishlist">
+      <i class="fi fi-ss-heart"></i>
+    </a>
+    
+    <a href="" class="action__btn" aria-label="compare">
+      <i class="fi fi-ss-shuffle"></i>
+    </a>
+    </div>
+    
+    <div class="product__badge light-green">30%</div>
+    
+    
+    
+    </div>
+    
+    <div class="product__content">
+    <span class="product __category">Clothing</span>
+    <a href="detalis.html">
+    <h3 class="product__title">ColorFul Pattern T-Shirt</h3>
+    </a>
+    
+    <div class="product__rating">
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    <i class="fi fi-ss-star"></i>
+    </div>
+    
+    <div class="product__price flex">
+    <span class="new__price">$238.85</span>
+    <span class="old__price">$228.85</span>
+    </div>
+    
+    <a href="" class="action__btn cart__btn" aria-label="Add To cart">
+    <i class="fi fi-ss-shopping-cart"></i>
+    </a>
+    </div>
+    
+    
+    </div>
+     </div>
+
+     
+     <div class="swiper-button-next">
+       <i class="fi fi-ss-angle-right"></i>
+     </div>
+     <div class="swiper-button-prev">
+       <i class="fi fi-ss-angle-left"></i>
+     </div>
+     </div>
+    </section>
+
+      <!--=============== SCHOWCASE ===============-->
+<section class="schowcase section">
+<div class="schowcase__container container grid">
+<div class="schowcase__wrapper">
+<h3 class="section__title">Hot Releases</h3>
+
+<div class="schowcase__item">
+<a href="detalis.html" class="schowcase__img-box">
+
+  <img src="/assets/img/showcase-img-1.jpg" alt=""  class="schowcase__img">
+</a>
+<div class="schowcase__content">
+<a href="detalis.html">
+
+  <h4 class="schowcase__title">Floral print casual cotton Dress</h4>
+</a>
+
+<div class="schowcase__price flex">
+  <span class="new__price">$328.5</span>
+  <span class="old__price">$245.5</span>
+</div>
+
+</div>
+
+
+</div>
+
+<div class="schowcase__item">
+  <a href="detalis.html" class="schowcase__img-box">
+  
+    <img src="/assets/img/showcase-img-2.jpg" alt=""  class="schowcase__img">
+  </a>
+  <div class="schowcase__content">
+  <a href="detalis.html">
+  
+    <h4 class="schowcase__title">Ruffled Solid long  sleeve Blouse</h4>
+  </a>
+  
+  <div class="schowcase__price flex">
+    <span class="new__price">$328.5</span>
+    <span class="old__price">$245.5</span>
+  </div>
+  
+  </div>
+  
+  
+  </div>
+
+  <div class="schowcase__item">
+    <a href="detalis.html" class="schowcase__img-box">
+    
+      <img src="/assets/img/showcase-img-3.jpg" alt=""  class="schowcase__img">
+    </a>
+    <div class="schowcase__content">
+    <a href="detalis.html">
+    
+      <h4 class="schowcase__title">Multi-color print V-neck T-Shirt</h4>
+    </a>
+    
+    <div class="schowcase__price flex">
+      <span class="new__price">$328.5</span>
+      <span class="old__price">$245.5</span>
+    </div>
+    
+    </div>
+    
+    
+    </div>
+
+
+</div>
+
+
+<div class="schowcase__wrapper">
+  <h3 class="section__title">Deals & outlet</h3>
+  
+  <div class="schowcase__item">
+  <a href="detalis.html" class="schowcase__img-box">
+  
+    <img src="/assets/img/showcase-img-4.jpg" alt=""  class="schowcase__img">
+  </a>
+  <div class="schowcase__content">
+  <a href="detalis.html">
+  
+    <h4 class="schowcase__title">fish Print Patched T-shirt</h4>
+  </a>
+  
+  <div class="schowcase__price flex">
+    <span class="new__price">$328.5</span>
+    <span class="old__price">$245.5</span>
+  </div>
+  
+  </div>
+  
+  
+  </div>
+  
+  <div class="schowcase__item">
+    <a href="detalis.html" class="schowcase__img-box">
+    
+      <img src="/assets/img/showcase-img-5.jpg" alt=""  class="schowcase__img">
+    </a>
+    <div class="schowcase__content">
+    <a href="detalis.html">
+    
+      <h4 class="schowcase__title">vintage Floral Print Dress</h4>
+    </a>
+    
+    <div class="schowcase__price flex">
+      <span class="new__price">$328.5</span>
+      <span class="old__price">$245.5</span>
+    </div>
+    
+    </div>
+    
+    
+    </div>
+  
+    <div class="schowcase__item">
+      <a href="detalis.html" class="schowcase__img-box">
+      
+        <img src="/assets/img/showcase-img-6.jpg" alt=""  class="schowcase__img">
+      </a>
+      <div class="schowcase__content">
+      <a href="detalis.html">
+      
+        <h4 class="schowcase__title">Multi-color Stripe Circle</h4>
+      </a>
+      
+      <div class="schowcase__price flex">
+        <span class="new__price">$328.5</span>
+        <span class="old__price">$245.5</span>
+      </div>
+      
+      </div>
+      
+      
+      </div>
+  
+  
+  </div>
+
+
+  <div class="schowcase__wrapper">
+    <h3 class="section__title">Top Selling</h3>
+    
+    <div class="schowcase__item">
+    <a href="detalis.html" class="schowcase__img-box">
+    
+      <img src="/assets/img/showcase-img-7.jpg" alt=""  class="schowcase__img">
+    </a>
+    <div class="schowcase__content">
+    <a href="detalis.html">
+    
+      <h4 class="schowcase__title">Geometric Printed long sleeve Blouse</h4>
+    </a>
+    
+    <div class="schowcase__price flex">
+      <span class="new__price">$328.5</span>
+      <span class="old__price">$245.5</span>
+    </div>
+    
+    </div>
+    
+    
+    </div>
+    
+    <div class="schowcase__item">
+      <a href="detalis.html" class="schowcase__img-box">
+      
+        <img src="/assets/img/showcase-img-8.jpg" alt=""  class="schowcase__img">
+      </a>
+      <div class="schowcase__content">
+      <a href="detalis.html">
+      
+        <h4 class="schowcase__title">Print patchwork Maxi Dress</h4>
+      </a>
+      
+      <div class="schowcase__price flex">
+        <span class="new__price">$328.5</span>
+        <span class="old__price">$245.5</span>
+      </div>
+      
+      </div>
+      
+      
+      </div>
+    
+      <div class="schowcase__item">
+        <a href="detalis.html" class="schowcase__img-box">
+        
+          <img src="/assets/img/showcase-img-9.jpg" alt=""  class="schowcase__img">
+        </a>
+        <div class="schowcase__content">
+        <a href="detalis.html">
+        
+          <h4 class="schowcase__title">Daisy Floral Print Straps jumpsuit</h4>
+        </a>
+        
+        <div class="schowcase__price flex">
+          <span class="new__price">$328.5</span>
+          <span class="old__price">$245.5</span>
+        </div>
+        
+        </div>
+        
+        
+        </div>
+    
+    
+    </div>
+  
+    <div class="schowcase__wrapper">
+      <h3 class="section__title">Trendy</h3>
+      
+      <div class="schowcase__item">
+      <a href="detalis.html" class="schowcase__img-box">
+      
+        <img src="/assets/img/showcase-img-1.jpg" alt=""  class="schowcase__img">
+      </a>
+      <div class="schowcase__content">
+      <a href="detalis.html">
+      
+        <h4 class="schowcase__title">Floral print casual cotton Dress</h4>
+      </a>
+      
+      <div class="schowcase__price flex">
+        <span class="new__price">$328.5</span>
+        <span class="old__price">$245.5</span>
+      </div>
+      
+      </div>
+      
+      
+      </div>
+      
+      <div class="schowcase__item">
+        <a href="detalis.html" class="schowcase__img-box">
+        
+          <img src="/assets/img/showcase-img-2.jpg" alt=""  class="schowcase__img">
+        </a>
+        <div class="schowcase__content">
+        <a href="detalis.html">
+        
+          <h4 class="schowcase__title">Ruffled Solid long  sleeve Blouse</h4>
+        </a>
+        
+        <div class="schowcase__price flex">
+          <span class="new__price">$328.5</span>
+          <span class="old__price">$245.5</span>
+        </div>
+        
+        </div>
+        
+        
+        </div>
+      
+        <div class="schowcase__item">
+          <a href="detalis.html" class="schowcase__img-box">
+          
+            <img src="/assets/img/showcase-img-3.jpg" alt=""  class="schowcase__img">
+          </a>
+          <div class="schowcase__content">
+          <a href="detalis.html">
+          
+            <h4 class="schowcase__title">Multi-color print V-neck T-Shirt</h4>
+          </a>
+          
+          <div class="schowcase__price flex">
+            <span class="new__price">$328.5</span>
+            <span class="old__price">$245.5</span>
+          </div>
+          
+          </div>
+          
+          
+          </div>
+      
+      
+      </div>
+
+</div>
+
+</section>
+
+  <!--=============== NEWSLETTER ===============-->
+<section class="newsletter section home__newsletter">
+<div class="newsletter__container container grid">
+<h3 class="newsletter__tittle flex">
+<img src="assets/img/icon-email.svg" alt="email" class="newsletter__icons">
+
+Sign Up to newsletter
+</h3>
+
+<p class="newsletter__description">....and receive $25 coupon for first shopping.</p>
+
+<form action="" class="newsletter__form">
+<input type="text" placeholder="Enter Your email" class="newsletter__input">
+<button type="submit" class="newsletter__btn">Subscribe</button>
+</form>
+</div>
+</section>
+</main>
+
+
+ <!--=============== FOOTER ===============-->
+<FOOter class="footer container">
+  <div class="footer__container grid">
+<div class="footer__content">
+<a href="index.html" class="footer__logo">
+
+<img src="assets/img/logo.svg" alt="" class="footer__logo-img">
+</a>
+
+<h4 class="footer__subtitle"> content</h4>
+
+<p class="footer__description"> <span>Address:</span> 452 wellington Road, Street 10 , san francisco</p>
+
+
+<p class="footer__description"> <span>Phone:</span> +01 2222 365/ (+97) 01 2345 6785</p>
+
+
+<p class="footer__description"> <span>Hours:</span> 10:00, Mon, - sat</p>
+
+<div class="footer__social">
+
+  <h4 class="footer__subtitle">Follow Me</h4>
+  <div class="footer__social-link flex">
+
+    <a href="">
+<img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon">
+</a>
+
+<a href="">
+  <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon">
+  </a>
+  
+  <a href="">
+    <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon">
+    </a>
+    
+    <a href="">
+      <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon">
+      </a>
+      
+ 
+      <a href="">
+        <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon">
+        </a>
+        
+</div>
+</div>
+</div>
+
+<div class="footer__content">
+<h3 class="footer__title">Address</h3>
+<ul class="footer__links">
+
+<li><a href="" class="footer__links">About Us</a></li>
+<li><a href="" class="footer__links">Delivery infoematio</a></li>
+<li><a href="" class="footer__links">privacy policy</a></li>
+<li><a href="" class="footer__links">Terms & conditions</a></li>
+<li><a href="" class="footer__links">contact us</a></li>
+<li><a href="" class="footer__links">SupportCenter</a></li>
+</ul>
+
+</div>
+
+
+<div class="footer__content">
+  <h3 class="footer__title">My Account</h3>
+  <ul class="footer__links">
+  
+  <li><a href="" class="footer__links">Sign In</a></li>
+  <li><a href="" class="footer__links">View cart</a></li>
+  <li><a href="" class="footer__links">MY wichlist</a></li>
+  <li><a href="" class="footer__links">Track My Order </a></li>
+  <li><a href="" class="footer__links">Help</a></li>
+  <li><a href="" class="footer__links">Order</a></li>
+  </ul>
+  </div>
+  
+<div class="footer__content">
+<h3 class="footer__title">secured Pyment Gateways</h3>
+
+<img src="assets/img/payment-method.png" alt="" class="payment-img">
+</div>
+
+
+</div>
+
+<div class="footer__bottom">
+<p class="copyright">&copy;2025 Evara .All rights reserved</p>
+<span class="Design"> Design by marzieh dezfoli</span>
+</div>
+
+</FOOter>
+
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+
+</html>
+  </body>
